@@ -1,0 +1,13 @@
+{
+  "name": "zadanie3-magazyn-ksiazek-walidacja",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Zadanie 3 - Wartosci domyslne, min i typ Boolean w Mongoose",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}

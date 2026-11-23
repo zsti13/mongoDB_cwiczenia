@@ -1,0 +1,13 @@
+{
+  "name": "zadanie4-ksiegarnia-naukowa-crud",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Zadanie 4 - Integrujacy pelny CRUD w Mongoose i Express",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}

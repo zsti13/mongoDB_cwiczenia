@@ -1,0 +1,28 @@
+### Przykladowe zapytania HTTP (rozszerzenie REST Client)
+### Kliknij "Send Request" nad wybranym zapytaniem, gdy serwer dziala w terminalu.
+
+### 1. Odczyt listy (przyklad: T03 Zadanie 1 - port 3001)
+GET http://localhost:3001/api/kursy
+
+### 2. Dodanie rekordu (przyklad: POST z cialem JSON)
+POST http://localhost:3001/api/kursy
+Content-Type: application/json
+
+{
+  "tytul": "Node.js i MongoDB w praktyce",
+  "cena": 149
+}
+
+### 3. Pobranie pojedynczego rekordu po ID (podmien ID po utworzeniu)
+GET http://localhost:3001/api/kursy/WSTAW_TUTAJ_ID
+
+### 4. Aktualizacja rekordu (PUT)
+PUT http://localhost:3001/api/kursy/WSTAW_TUTAJ_ID
+Content-Type: application/json
+
+{
+  "cena": 129
+}
+
+### 5. Usuniecie rekordu (DELETE)
+DELETE http://localhost:3001/api/kursy/WSTAW_TUTAJ_ID

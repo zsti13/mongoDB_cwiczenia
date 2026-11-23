@@ -1,0 +1,33 @@
+{
+  "name": "INF.04 PZAI - Node.js + MongoDB",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/mongodb-lab",
+  "forwardPorts": [3000, 3001, 3002, 3003, 3004, 3005, 27017],
+  "portsAttributes": {
+    "27017": {
+      "label": "MongoDB",
+      "onAutoForward": "silent"
+    },
+    "3000": {
+      "label": "Express API (3000)",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mongodb.mongodb-vscode",
+        "humao.rest-client",
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.formatOnSave": false,
+        "files.autoSave": "afterDelay"
+      }
+    }
+  },
+  "remoteUser": "node"
+}

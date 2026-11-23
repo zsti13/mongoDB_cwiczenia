@@ -1,0 +1,14 @@
+{
+  "name": "inf04-pzai-mongodb-codespace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Srodowisko GitHub Codespaces dla zajec INF.04 PZAI (Express + Mongoose + MongoDB)",
+  "scripts": {
+    "check": "node sprawdz_srodowisko.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}

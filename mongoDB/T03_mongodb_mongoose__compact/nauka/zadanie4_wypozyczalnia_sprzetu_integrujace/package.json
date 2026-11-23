@@ -1,0 +1,13 @@
+{
+  "name": "zadanie4-wypozyczalnia-sprzetu-integrujace",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Zadanie 4 - Integrujace odczyt i zapis w kolekcji Mongoose",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}

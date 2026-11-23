@@ -1,0 +1,13 @@
+{
+  "name": "zadanie2-zgloszenia-serwisowe-it",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Zadanie 2 - Zapis nowego dokumentu z walidacja w Mongoose",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}
