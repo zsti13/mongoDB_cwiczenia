@@ -3,7 +3,7 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/mongodb-lab",
-  "forwardPorts": [3000, 3001, 3002, 3003, 3004, 3005, 27017],
+  "forwardPorts": [3000, 3001, 3002, 3003, 3004, 3005, 3007, 27017],
   "portsAttributes": {
     "27017": {
       "label": "MongoDB",
@@ -14,7 +14,7 @@
       "onAutoForward": "notify"
     }
   },
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "npm install && (npm run seed || true)",
   "customizations": {
     "vscode": {
       "extensions": [

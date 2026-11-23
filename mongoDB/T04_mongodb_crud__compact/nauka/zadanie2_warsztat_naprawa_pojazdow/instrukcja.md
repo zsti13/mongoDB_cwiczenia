@@ -26,5 +26,5 @@ node server.js
 ```
 Wysyłanie żądania edycji zlecenia:
 ```bash
-curl -X PUT http://localhost:3000/api/zlecenia/6620f18c8a1b2c3d4e5f6789 -H "Content-Type: application/json" -d "{"koszt": 1250, "status": "zakonczone"}"
+curl -X PUT http://localhost:3000/api/zlecenia/6620f18c8a1b2c3d4e5f6789 -H "Content-Type: application/json" -d '{"koszt": 1250, "status": "zakonczone"}'
 ```

@@ -32,5 +32,5 @@ node server.js
 ```
 Aktualizacja ceny pizzy w menu:
 ```bash
-curl -X PUT http://localhost:3007/api/menu/6620f18c8a1b2c3d4e5f6789 -H "Content-Type: application/json" -d "{"cena": 44}"
+curl -X PUT http://localhost:3007/api/menu/6620f18c8a1b2c3d4e5f6789 -H "Content-Type: application/json" -d '{"cena": 44}'
 ```

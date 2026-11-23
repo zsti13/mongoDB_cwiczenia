@@ -8,7 +8,6 @@ Każde zadanie w module posiada szablon startowy dla ucznia oraz katalog wzorcow
 |:---|:---|:---|
 | `zadanieX_.../server.js` | Szablon startowy | Przygotowana baza aplikacji z komentarzami `// Twoje rozwiazanie`, w których należy dopisać wymaganą trasę CRUD. |
 | `zadanieX_.../package.json` | Konfiguracja projektu | Definicja zależności (`express`, `mongoose`), typu modułu (`"type": "module"`) oraz skryptu uruchomieniowego. |
-| `zadanieX_.../rozwiazanie/server.js` | Kod wzorcowy | W pełni działająca, kompletna implementacja trasy wraz z prawidłową obsługą błędów i kodami statusu. |
 
 ---
 

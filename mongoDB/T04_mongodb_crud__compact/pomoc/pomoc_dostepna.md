@@ -27,4 +27,4 @@ Ten dokument zawiera dokładne, jednoznaczne instrukcje wykonywania zadań w mod
 6. Wpisz polecenie `npm start` lub `node server.js`, aby uruchomić aplikację.
 7. Przetestuj działanie trasy za pomocą polecenia `curl` lub przeglądarki zgodnie z przykładem w instrukcji.
 8. Jeśli program zgłasza błędy, popraw kod w pliku `server.js` i uruchom go ponownie.
-9. Po samodzielnym rozwiązaniu zadania otwórz katalog `rozwiazanie/server.js` i porównaj swój kod z wersją wzorcową.
+9. Po samodzielnym rozwiązaniu zadania zweryfikuj wszystkie kody statusu HTTP (`200`, `201`, `204`, `400`, `404`) względem wymagań z `instrukcja.md`.

@@ -206,12 +206,13 @@ Aby przygotować środowisko robocze dla aplikacji korzystającej z Express i Mo
    ```bash
    node server.js
    ```
-4. **Testowanie zapytań HTTP w konsoli PowerShell:**
+4. **Testowanie zapytań HTTP w terminalu bash (GitHub Codespaces / Linux):**
    - Pobranie listy:
-     ```powershell
-     Invoke-RestMethod -Uri http://localhost:3000/api/produkty -Method GET
+     ```bash
+     curl -i http://localhost:3000/api/produkty
      ```
    - Dodanie nowego dokumentu:
-     ```powershell
-     Invoke-RestMethod -Uri http://localhost:3000/api/produkty -Method POST -ContentType "application/json" -Body '{"nazwa":"Mysz bezprzewodowa","cena":79.99}'
+     ```bash
+     curl -i -X POST http://localhost:3000/api/produkty -H "Content-Type: application/json" -d '{"nazwa":"Mysz bezprzewodowa","cena":79.99}'
      ```
+   *(Alternatywnie w Windows PowerShell: `Invoke-RestMethod -Uri http://localhost:3000/api/produkty -Method GET`)*

@@ -31,5 +31,5 @@ curl -X GET http://localhost:3000/api/ksiazki
 ```
 Test dodania nowej książki:
 ```bash
-curl -X POST http://localhost:3000/api/ksiazki -H "Content-Type: application/json" -d "{"tytul":"Wydajny Node.js i MongoDB","autor":"Tomasz Lis","cena":89,"isbn":"978-83-1234"}"
+curl -X POST http://localhost:3000/api/ksiazki -H "Content-Type: application/json" -d '{"tytul":"Wydajny Node.js i MongoDB","autor":"Tomasz Lis","cena":89,"isbn":"978-83-1234"}'
 ```

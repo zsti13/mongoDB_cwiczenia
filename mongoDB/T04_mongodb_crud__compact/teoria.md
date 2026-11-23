@@ -32,7 +32,7 @@ W architekturze REST punkt końcowy (ang. *endpoint*) składa się z metody HTTP
 
 ## 2. Odczyt pojedynczego rekordu: `Model.findById()`
 
-Gdy użytkownik klika w aplikacji kafelek z produktem lub wchodzi w widok szczegółów zgłoszenia, frontend wysyła żądanie `GET` ze شناidentyfikatorem rekordu w adresie URL, np. `/api/produkty/654321abcdef1234567890ab`.
+Gdy użytkownik klika w aplikacji kafelek z produktem lub wchodzi w widok szczegółów zgłoszenia, frontend wysyła żądanie `GET` ze identyfikatorem rekordu w adresie URL, np. `/api/produkty/654321abcdef1234567890ab`.
 
 W Express parametr ten odbieramy za pośrednictwem obiektu `req.params`, a następnie przekazujemy do metody `Model.findById(id)`.
 

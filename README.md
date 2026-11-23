@@ -23,6 +23,14 @@ npm run check
 Powinien pojawić się komunikat:
 `OK: Polaczono pomyslnie z baza MongoDB!`
 
+### Dane startowe (seed)
+
+Przy starcie Codespace automatycznie ładowane są przykładowe dokumenty do baz `edustrefa`, `pracait_db`, `autoserwis_db`, `ergobiuro_db` i `pizzeria_la_bella` (w tym dokumenty z testowym ID `6620f18c8a1b2c3d4e5f6789` używanym w instrukcjach T04). Jeśli usuniesz rekord podczas testów `DELETE` lub chcesz odświeżyć dane startowe, uruchom w katalogu głównym:
+
+```bash
+npm run seed
+```
+
 > Baza MongoDB działa automatycznie w tle pod adresem `mongodb://127.0.0.1:27017` — dokładnie takim, jaki znajduje się w plikach `server.js` w zadaniach.
 
 ---

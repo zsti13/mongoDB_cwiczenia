@@ -5,7 +5,8 @@
   "type": "module",
   "description": "Srodowisko GitHub Codespaces dla zajec INF.04 PZAI (Express + Mongoose + MongoDB)",
   "scripts": {
-    "check": "node sprawdz_srodowisko.mjs"
+    "check": "node sprawdz_srodowisko.mjs",
+    "seed": "node seed_dane.mjs"
   },
   "dependencies": {
     "express": "^4.19.2",

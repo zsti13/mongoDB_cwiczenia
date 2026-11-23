@@ -34,9 +34,8 @@ Wersja materiału dydaktycznego przygotowana z myślą o uczniach preferujących
      ```
 
 6. **Krok 6: Przetestuj działanie endpointu.**
-   - Wyślij zapytanie testowe za pomocą PowerShell lub przeglądarki.
+   - Wyślij zapytanie testowe za pomocą `curl` w drugim terminalu lub pliku `test_api.http` (rozszerzenie REST Client).
    - Sprawdź, czy serwer zwraca poprawny kod statusu HTTP oraz oczekiwaną strukturę JSON.
 
-7. **Krok 7: Porównanie z rozwiązaniem wzorcowym.**
-   - Po podjęciu własnej próby i przetestowaniu kodu, otwórz plik `rozwiazanie/server.js`.
-   - Porównaj swój kod z kodem wzorcowym, zwracając uwagę na styl obsługi błędów i strukturę schematu.
+7. **Krok 7: Weryfikacja końcowa.**
+   - Sprawdź, czy obsłużyłeś wszystkie przypadki błędów (`400 Bad Request`, `500 Internal Server Error`) i porównaj kod z wymaganiami w `instrukcja.md`.
